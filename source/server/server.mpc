@@ -1,0 +1,13 @@
+project (server) {
+  exename = server 
+  install = .
+ 
+  Source_Files {
+    buildflags = -g -lcurses
+    *.cpp
+    ../*.cpp 
+    }
+ Header_Files {
+	../../include/*.h
+  }
+}

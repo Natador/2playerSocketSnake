@@ -1,0 +1,14 @@
+*.swp
+*.swo
+*.o
+binary/*
+!binary/.gitkeep
+build/*
+!build/.gitkeep
+source/client/client
+source/.idea/*
+source/cmake-build-debug/*
+source/CMakeLists.txt
+source/server/server
+source/client/straight_client/tclient
+source/client/straight_client/client
